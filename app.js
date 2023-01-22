@@ -1,7 +1,7 @@
 const express = require('express');
 
 const { router } = require('./router');
-console.log("Let's go"); // console.log('Let\'s go');
+// console.log("Let's go"); // console.log('Let\'s go');
 
 const app = express();
 
