@@ -1,6 +1,7 @@
-const express = require("express");
+const express = require('express');
 
-const { router } = require("./router");
+const { router } = require('./router');
+console.log("Let's go"); // console.log('Let\'s go');
 
 const app = express();
 
@@ -14,7 +15,7 @@ const app = express();
 //   next();
 // });
 
-app.use("/", router);
+app.use('/', router);
 
 module.exports = {
   app,
